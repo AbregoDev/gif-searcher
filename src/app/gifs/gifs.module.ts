@@ -7,16 +7,16 @@ import { ResultadosComponent } from './resultados/resultados.component';
 
 
 @NgModule({
-  declarations: [
-     GifsPageComponent,
-     BusquedaComponent,
-     ResultadosComponent,
-   ],
-  imports: [
-    CommonModule,
-  ],
-  exports: [
-     GifsPageComponent,
-  ]
+    declarations: [
+        GifsPageComponent,
+        BusquedaComponent,
+        ResultadosComponent,
+    ],
+    imports: [
+        CommonModule,
+    ],
+    exports: [
+        GifsPageComponent,
+    ]
 })
 export class GifsModule { }

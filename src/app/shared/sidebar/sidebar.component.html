@@ -1,16 +1,14 @@
 <div class="bg-dark border-right p-3" id="sidebar">
-   <h3 class="text-light">
-      Gifs world!
-   </h3>
+    <h3 class="text-light">
+        Gifs world!
+    </h3>
 
-   <hr class="text-white">
+    <hr class="text-white">
 
-   <div class="list-group list-reset">
-      <a *ngFor="let search of historial"
-         href="#"
-         (click)="buscar(search)"
-         class="list-group-item list-group-item-action">
-         {{ search | titlecase}}
-      </a>
-   </div>
+    <div class="list-group list-reset">
+        <a *ngFor="let search of historial" href="#" (click)="buscar(search)"
+            class="list-group-item list-group-item-action">
+            {{ search | titlecase}}
+        </a>
+    </div>
 </div>
