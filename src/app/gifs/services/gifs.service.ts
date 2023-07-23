@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { SearchGifResponse, Gif } from "../interfaces/gifs-response.interface";
+import { environment } from 'src/environments/environment';
 
 @Injectable({
     providedIn: 'root'
 })
 export class GifsService {
 
-    private _apiKey: string = 'ssN91R7ueQIytXr1sU2KR2EGHZhY6QPN';
+    private _apiKey: string = environment.GIPHY_KEY;
     private _baseApiUrl: string = 'http://api.giphy.com/v1/gifs';
     // Constantes para localStorage
     private readonly HISTORIAL = "historial";
