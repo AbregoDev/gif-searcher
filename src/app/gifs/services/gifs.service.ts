@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment';
 export class GifsService {
 
     private _apiKey: string = environment.GIPHY_KEY;
-    private _baseApiUrl: string = 'http://api.giphy.com/v1/gifs';
+    private _baseApiUrl: string = 'https://api.giphy.com/v1/gifs';
     // Constantes para localStorage
     private readonly HISTORIAL = "historial";
     private readonly RESULTADOS = "resultados";
