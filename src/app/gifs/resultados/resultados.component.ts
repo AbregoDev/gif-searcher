@@ -13,6 +13,10 @@ export class ResultadosComponent {
         return this.gifsService.resultados;
     }
 
+    get isLoading(): boolean {
+        return this.gifsService.isSearching;
+    }
+
     constructor(private gifsService: GifsService) { }
 
 }
