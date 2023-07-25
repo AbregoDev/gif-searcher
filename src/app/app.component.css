@@ -1,0 +1,8 @@
+app-sidebar {
+    position: fixed;
+    width: 260px;
+}
+
+app-gifs-page {
+    margin-left: 260px;
+}
